@@ -46,7 +46,7 @@
               });
               return promise = $timeout(function () {
                 return scope.confirmingAction = false;
-              }, 1500);
+              }, 3000);
             } else {
               if (hasConfirmed) {
                 return;
