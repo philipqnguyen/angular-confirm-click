@@ -74,7 +74,7 @@ angular.module('confirmClick')
           # Revert if the user does not confirm
           promise = $timeout ->
             scope.confirmingAction = false
-          , 1500
+          , 3000
 
         # Subsequent clicks
         else
